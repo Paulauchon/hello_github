@@ -1,2 +1,4 @@
 # hello_github
-This is my comment to change something
+A line before
+This is my comment. I have changed something
+And a line after
