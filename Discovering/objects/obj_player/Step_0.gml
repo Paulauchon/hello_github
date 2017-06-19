@@ -20,8 +20,9 @@ if (l05CDF6BC_0)
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "obj_bomb"
+		/// @DnDArgument : "layer" ""Layer_Bullet""
 		/// @DnDSaveInfo : "objectid" "15b13262-0bfb-449b-9ba1-61d31ea9ce50"
-		instance_create_layer(x + 0, y + 0, "Instances", obj_bomb);
+		instance_create_layer(x + 0, y + 0, "Layer_Bullet", obj_bomb);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
