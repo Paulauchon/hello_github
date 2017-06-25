@@ -9,7 +9,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        
+        "5ce51648-8545-4ac0-80a3-b73b18faf3fb"
     ],
     "layers": [
         {
@@ -35,7 +35,30 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                
+                {
+                    "id": "5ce51648-8545-4ac0-80a3-b73b18faf3fb",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_5923CEB7",
+                    "x": 480,
+                    "y": 352,
+                    "IsDnD": true,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_5923CEB7",
+                    "objId": "a6bd02a0-ebb2-4faa-a7f2-f3afc0c1ee6b",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
             ]
         },
         {
@@ -63,15 +86,15 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4278190080
+                "Value": 4294967295
             },
-            "hspeed": 0,
-            "htiled": false,
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "hspeed": -1,
+            "htiled": true,
+            "spriteId": "4c00da75-a59c-4638-b1fa-6adc4c26e7f7",
             "stretch": false,
             "userdefined_animFPS": false,
-            "vspeed": 0,
-            "vtiled": false,
+            "vspeed": -1,
+            "vtiled": true,
             "x": 0,
             "y": 0
         }
