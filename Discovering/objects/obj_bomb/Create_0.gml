@@ -8,8 +8,8 @@ direction = point_direction(x, y, mouse_x, mouse_y);
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 3DD2EC8E
-/// @DnDArgument : "speed" "5"
-speed = 5;
+/// @DnDArgument : "speed" "10"
+speed = 10;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1

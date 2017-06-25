@@ -24,13 +24,30 @@ if (l05CDF6BC_0)
 		/// @DnDSaveInfo : "objectid" "15b13262-0bfb-449b-9ba1-61d31ea9ce50"
 		instance_create_layer(x + 0, y + 0, "Layer_Bullet", obj_bomb);
 	
+		/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
+		/// @DnDVersion : 1
+		/// @DnDHash : 260A8C9E
+		/// @DnDParent : 620DF182
+		/// @DnDArgument : "sound" "snd_fireball"
+		/// @DnDArgument : "pitch" "random_range(0.8,1.2)"
+		/// @DnDSaveInfo : "sound" "05113edd-d75d-4ac8-ac7b-a3f1b2236654"
+		audio_sound_pitch(snd_fireball, random_range(0.8,1.2));
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 6D388937
+		/// @DnDParent : 620DF182
+		/// @DnDArgument : "soundid" "snd_fireball"
+		/// @DnDSaveInfo : "soundid" "05113edd-d75d-4ac8-ac7b-a3f1b2236654"
+		audio_play_sound(snd_fireball, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 0657D2B5
 		/// @DnDParent : 620DF182
-		/// @DnDArgument : "expr" "10"
+		/// @DnDArgument : "expr" "20"
 		/// @DnDArgument : "var" "cooldown"
-		cooldown = 10;
+		cooldown = 20;
 	}
 }
 
