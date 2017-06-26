@@ -14,6 +14,14 @@ walkSpeed = 3.5;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 24F3CDE5
+/// @DnDHash : 54A47307
 /// @DnDArgument : "var" "image_speed"
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 4926BDF6
+/// @DnDArgument : "xscale" "4"
+/// @DnDArgument : "yscale" "4"
+image_xscale = 4;
+image_yscale = 4;
