@@ -33,6 +33,15 @@ if(keyboard_check(vk_shift)) {
 	walkSpeed = 7;
 }
 
+
+// Manage Screen Border
+if((x <= 0) || (x >= room_width)) {
+	x = xprevious;
+}
+if((y <= 0)  || (y >= room_height)) {
+	y = yprevious;
+}
+
 // Mouse Event
 if(mouse_check_button(mb_left) && (cooldown<=0)) {
 	instance_create_layer(x,y,"BulletLayer",obj_fireball);
@@ -46,3 +55,4 @@ if(not(instance_exists(obj_ennemy))) {
 	image_speed = walkSpeed / 3;
 	sprite_index = spr_playerDancing;
 }
+
